@@ -45,6 +45,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${silkscreen.variable} antialiased h-screen overflow-hidden bg-white dark:bg-neutral-950 text-neutral-900 dark:text-neutral-100`}
       >
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.__name = (target, value) => {
+                Object.defineProperty(target, "name", { value, configurable: true });
+                return target;
+              };
+            `,
+          }}
+        />
         <ThemeProvider>
           <div className="flex flex-col h-full">
             <Header />

@@ -42,4 +42,5 @@ next-env.d.ts
 
 .claude
 .vscode
-.agent
+.open-next
+.wrangler
