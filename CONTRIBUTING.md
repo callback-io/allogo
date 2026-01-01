@@ -105,7 +105,7 @@ If you want to improve the codebase (feature or bug fix):
 
 1. **Clone the repo**:
    ```bash
-   git clone https://github.com/allogo-org/allogo.git
+   git clone https://github.com/callback-io/allogo.git
    ```
 2. **Install dependencies**:
    ```bash
