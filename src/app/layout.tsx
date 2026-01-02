@@ -23,6 +23,7 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://allogo.org"),
   title: "Allogo - SVG Logos for Developers",
   description:
     "Download SVG logos and copy React/Vue component code. Free, open source logo library for developers.",
