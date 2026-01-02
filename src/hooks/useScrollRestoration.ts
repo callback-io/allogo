@@ -19,14 +19,21 @@ function getScrollPositions(): Record<string, number> {
 }
 
 /**
- * Save scroll position for a specific path (only if > 100)
+ * Save scroll position for a specific path (only if > 300 to skip header/banner)
+ * If position <= 300, clear the saved position (user is at top)
  */
 function saveScrollPosition(path: string, position: number) {
-  if (position <= 100) return;
-
   try {
     const positions = getScrollPositions();
-    positions[path] = position;
+
+    if (position <= 300) {
+      // User is at top, remove saved position
+      delete positions[path];
+    } else {
+      // Save the position
+      positions[path] = position;
+    }
+
     sessionStorage.setItem(SCROLL_POSITIONS_KEY, JSON.stringify(positions));
   } catch {
     // Ignore errors
@@ -65,7 +72,7 @@ export function useScrollRestoration(scrollContainerId: string) {
 
       if (link && link.href) {
         const scrollElement = getScrollElement();
-        if (scrollElement && scrollElement.scrollTop > 100) {
+        if (scrollElement) {
           saveScrollPosition(pathname, scrollElement.scrollTop);
         }
       }
@@ -87,12 +94,10 @@ export function useScrollRestoration(scrollContainerId: string) {
       if (isRestoringRef.current) return;
 
       const position = scrollElement.scrollTop;
-      if (position > 100) {
-        if (saveTimeout) clearTimeout(saveTimeout);
-        saveTimeout = setTimeout(() => {
-          saveScrollPosition(pathname, position);
-        }, 200);
-      }
+      if (saveTimeout) clearTimeout(saveTimeout);
+      saveTimeout = setTimeout(() => {
+        saveScrollPosition(pathname, position);
+      }, 200);
     };
 
     scrollElement.addEventListener("scroll", handleScroll, { passive: true });
