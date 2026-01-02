@@ -3,6 +3,7 @@
 import { useRef, useEffect, useState, useCallback } from "react";
 import { useVirtualizer } from "@tanstack/react-virtual";
 import { LogoCard } from "./LogoCard";
+import { useScrollRestoration } from "@/hooks/useScrollRestoration";
 import type { Logo } from "@/lib/types";
 import type { LogoSize } from "./Toolbar";
 
@@ -62,9 +63,12 @@ export function LogoGrid({ logos, logoSize = "medium" }: LogoGridProps) {
     count: rowCount,
     getScrollElement: () => document.getElementById("main-content"),
     estimateSize: () => rowHeight + GAP,
-    overscan: 3,
+    overscan: 5,
     scrollMargin: listRef.current?.offsetTop ?? 0,
   });
+
+  // Custom scroll restoration for static export
+  useScrollRestoration("main-content");
 
   if (logos.length === 0) {
     return (

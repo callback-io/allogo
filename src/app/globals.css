@@ -105,3 +105,13 @@
 .font-pixel {
   font-family: var(--font-silkscreen), cursive;
 }
+
+/* Skeleton shimmer animation */
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
