@@ -21,36 +21,72 @@ interface LogoDetailClientProps {
 
 export function LogoDetailClient({ logo }: LogoDetailClientProps) {
   const { resolvedTheme } = useTheme();
-  // Internal background state: null follows system, otherwise manual
   const [manualBgMode, setManualBgMode] = useState<"dark" | "light" | null>(null);
-
-  // Ensure theme is displayed only after mounting to avoid hydration mismatch
   const [mounted, setMounted] = useState(false);
   useEffect(() => setMounted(true), []);
 
-  // Calculate current display mode
   const currentBgMode = manualBgMode ?? (resolvedTheme === "light" ? "light" : "dark");
   const displayMode = mounted ? currentBgMode : "dark";
 
-  // Get current origin (client-side)
-  const baseUrl = typeof window !== "undefined" ? window.location.origin : "";
+  // CDN URL construction
+  // Production usage: Use specific version tag instead of @main explicitly if needed
+  const cdnUrl = `https://cdn.jsdelivr.net/gh/callback-io/allogo@main/public/logos/${
+    logo.slug
+  }/icon.${logo.fileType || "svg"}`;
 
-  const reactCode = generateReactComponent(logo.name, logo.svgContent);
-  const vueCode = generateVueComponent(logo.name, logo.svgContent);
-  const angularCode = generateAngularComponent(logo.name, logo.svgContent);
-  const svelteCode = generateSvelteComponent(logo.name, logo.svgContent);
-  const htmlCode = generateHtmlCode(logo.slug, baseUrl);
+  // Only generate code if we have SVG content
+  const reactCode = logo.svgContent ? generateReactComponent(logo.name, logo.svgContent) : "";
+  const vueCode = logo.svgContent ? generateVueComponent(logo.name, logo.svgContent) : "";
+  const angularCode = logo.svgContent ? generateAngularComponent(logo.name, logo.svgContent) : "";
+  const svelteCode = logo.svgContent ? generateSvelteComponent(logo.name, logo.svgContent) : "";
+
+  // Tabs configuration
+  const tabs = [];
+
+  // CDN Tab (Always first or present)
+  tabs.push({
+    label: "CDN Link",
+    code: cdnUrl,
+    language: "bash",
+    filename: "cdn-url.txt",
+  });
+
+  if (logo.svgContent) {
+    tabs.push(
+      { label: "React", code: reactCode, language: "tsx", filename: "Icon.tsx" },
+      { label: "Vue", code: vueCode, language: "vue", filename: "Icon.vue" },
+      {
+        label: "Angular",
+        code: angularCode,
+        language: "typescript",
+        filename: "icon.component.ts",
+      },
+      { label: "Svelte", code: svelteCode, language: "svelte", filename: "Icon.svelte" },
+      { label: "SVG", code: logo.svgContent, language: "html", filename: "icon.svg" }
+    );
+  }
 
   const handleDownload = () => {
-    const blob = new Blob([logo.svgContent], { type: "image/svg+xml" });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement("a");
-    a.href = url;
-    a.download = `${logo.slug}.svg`;
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
+    if (logo.svgContent) {
+      // SVG Download
+      const blob = new Blob([logo.svgContent], { type: "image/svg+xml" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `${logo.slug}.svg`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+    } else {
+      // Raster Download (Direct Link)
+      const a = document.createElement("a");
+      a.href = `/logos/${logo.slug}/icon.${logo.fileType || "png"}`;
+      a.download = `${logo.slug}.${logo.fileType || "png"}`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
   };
 
   return (
@@ -90,10 +126,21 @@ export function LogoDetailClient({ logo }: LogoDetailClientProps) {
                 : "bg-white shadow-neutral-300/50"
             }`}
           >
-            <div
-              className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center [&>svg]:w-auto [&>svg]:h-auto [&>svg]:max-w-full [&>svg]:max-h-full"
-              dangerouslySetInnerHTML={{ __html: logo.svgContent }}
-            />
+            <div className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center p-2">
+              {logo.svgContent ? (
+                <div
+                  className="w-full h-full flex items-center justify-center [&>svg]:w-auto [&>svg]:h-auto [&>svg]:max-w-full [&>svg]:max-h-full"
+                  dangerouslySetInnerHTML={{ __html: logo.svgContent }}
+                />
+              ) : (
+                /* Raster Image Preview */
+                <img
+                  src={`/logos/${logo.slug}/icon.${logo.fileType || "png"}`}
+                  alt={logo.name}
+                  className="max-w-full max-h-full object-contain"
+                />
+              )}
+            </div>
           </div>
 
           {/* Logo Info + Actions */}
@@ -137,7 +184,8 @@ export function LogoDetailClient({ logo }: LogoDetailClientProps) {
                     d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"
                   />
                 </svg>
-                Download SVG
+                Download{" "}
+                {logo.fileType && logo.fileType !== "svg" ? logo.fileType.toUpperCase() : "SVG"}
               </button>
 
               {/* Website Link */}
@@ -183,22 +231,7 @@ export function LogoDetailClient({ logo }: LogoDetailClientProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
         >
-          <CodeTabs
-            defaultTab="React"
-            tabs={[
-              { label: "React", code: reactCode, language: "tsx", filename: "Icon.tsx" },
-              { label: "Vue", code: vueCode, language: "vue", filename: "Icon.vue" },
-              {
-                label: "Angular",
-                code: angularCode,
-                language: "typescript",
-                filename: "icon.component.ts",
-              },
-              { label: "Svelte", code: svelteCode, language: "svelte", filename: "Icon.svelte" },
-              { label: "SVG", code: logo.svgContent, language: "html", filename: "icon.svg" },
-              { label: "HTML", code: htmlCode, language: "html", filename: "usage.html" },
-            ]}
-          />
+          <CodeTabs defaultTab="CDN Link" tabs={tabs} />
         </motion.div>
       </div>
     </main>

@@ -49,7 +49,7 @@ export function LogoCard({ logo, logoSize = "medium" }: LogoCardProps) {
             </div>
           )}
           <Image
-            src={`/logos/${logo.slug}/icon.svg`}
+            src={`/logos/${logo.slug}/icon.${logo.fileType || "svg"}`}
             alt={`${logo.name} logo`}
             width={imageSize}
             height={imageSize}

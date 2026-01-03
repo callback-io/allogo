@@ -27,11 +27,18 @@ export async function getLogoBySlug(slug: string): Promise<LogoWithSvg | null> {
 
   if (!logo) return null;
 
+  // If explicit non-SVG type, return without content
+  if (logo.fileType && logo.fileType !== "svg") {
+    return { ...logo };
+  }
+
+  // Default to SVG behavior
   try {
     const svgPath = path.join(process.cwd(), "public/logos", slug, "icon.svg");
     const svgContent = await fs.readFile(svgPath, "utf-8");
     return { ...logo, svgContent };
   } catch {
+    // If SVG fails but we might have fallback (logic can be extended here)
     return null;
   }
 }
