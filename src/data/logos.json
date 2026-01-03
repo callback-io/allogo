@@ -1428,6 +1428,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "rog",
+    "name": "Rog",
+    "website": "https://rog.asus.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "async-api",
     "name": "Async Api",
     "website": "https://www.asyncapi.com/",
