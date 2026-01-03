@@ -7,22 +7,24 @@ export function Footer() {
 
   return (
     <footer className="border-t border-neutral-200 dark:border-neutral-800 bg-neutral-50 dark:bg-neutral-900/50">
-      <div className="max-w-6xl mx-auto px-4 py-6">
-        <div className="flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-neutral-500 dark:text-neutral-400">
-          <div className="flex flex-col gap-1">
-            <span>© {currentYear} Allogo.</span>
-            <p className="text-xs text-neutral-400 dark:text-neutral-500 max-w-xl">
-              All product names, logos, and brands are property of their respective owners. All
-              company, product and service names used in this website are for identification
-              purposes only. Use of these names, logos, and brands does not imply endorsement.
+      <div className="max-w-6xl mx-auto px-4 py-4 md:py-6">
+        <div className="flex flex-col md:flex-row items-center justify-between gap-2 md:gap-4 text-xs md:text-sm text-neutral-500 dark:text-neutral-400">
+          {/* Left side - copyright and disclaimer */}
+          <div className="flex flex-col items-center md:items-start gap-1">
+            <span>© {currentYear} Allogo</span>
+            {/* Disclaimer - hide on mobile */}
+            <p className="hidden md:block text-xs text-neutral-400 dark:text-neutral-500 max-w-xl">
+              All product names, logos, and brands are property of their respective owners.
             </p>
           </div>
-          <div className="flex flex-col sm:flex-row items-center gap-4">
+
+          {/* Right side - links - compact on mobile */}
+          <div className="flex items-center gap-3 md:gap-4 flex-wrap justify-center">
             <Link
               href="/legal"
-              className="text-xs font-medium hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
+              className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
             >
-              Legal & DMCA
+              Legal
             </Link>
             <Link
               href="https://github.com/callback-io/allogo"
@@ -32,27 +34,24 @@ export function Footer() {
             >
               GitHub
             </Link>
-            <span className="text-neutral-300 dark:text-neutral-700">|</span>
-            <div className="flex items-center gap-4">
-              <Link
-                href="/privacy"
-                className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
-              >
-                Privacy
-              </Link>
-              <Link
-                href="/terms"
-                className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
-              >
-                Terms
-              </Link>
-              <Link
-                href="/contact"
-                className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
-              >
-                Contact
-              </Link>
-            </div>
+            <Link
+              href="/privacy"
+              className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
+            >
+              Privacy
+            </Link>
+            <Link
+              href="/terms"
+              className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
+            >
+              Terms
+            </Link>
+            <Link
+              href="/contact"
+              className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
+            >
+              Contact
+            </Link>
           </div>
         </div>
       </div>

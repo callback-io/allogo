@@ -100,8 +100,8 @@ export function CodeTabs({ tabs, defaultTab }: CodeTabsProps) {
         </div>
       </div>
 
-      {/* Code content */}
-      <div className="overflow-x-auto">
+      {/* Code content - hide scrollbar on mobile */}
+      <div className="overflow-x-auto scrollbar-hide">
         {isLoading ? (
           <pre className="p-4 text-sm leading-relaxed">
             <code className="text-neutral-600 dark:text-neutral-400">{currentTab.code}</code>

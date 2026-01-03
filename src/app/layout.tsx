@@ -57,6 +57,27 @@ export default function RootLayout({
             `,
           }}
         />
+        {/* JSON-LD Structured Data for Sitelinks Searchbox */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              url: "https://allogo.org/",
+              name: "Allogo",
+              description: "SVG Logos for Developers",
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: "https://allogo.org/?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
         <ThemeProvider>
           <div className="flex flex-col h-full">
             <Header />
