@@ -1434,6 +1434,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "proart",
+    "name": "Proart",
+    "website": "https://www.asus.com/us/proart/",
+    "fileType": "svg"
+  },
+  {
     "slug": "async-api",
     "name": "Async Api",
     "website": "https://www.asyncapi.com/",
@@ -17570,9 +17576,51 @@
   },
   {
     "slug": "yiyan",
-    "name": "Yiyan, Wenxin",
+    "name": "Yiyan, Wenxin Yiyan",
     "website": "https://yiyan.baidu.com/",
     "fileType": "png"
+  },
+  {
+    "slug": "temu",
+    "name": "Temu",
+    "website": "https://www.temu.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "weather",
+    "name": "Weather",
+    "website": "https://www.weather.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "naver",
+    "name": "Naver",
+    "website": "https://www.naver.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "imdb",
+    "name": "IMDB",
+    "website": "https://www.imdb.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "globo",
+    "name": "Globo",
+    "website": "https://www.globo.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "roblox",
+    "name": "Roblox",
+    "website": "https://www.roblox.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "msn",
+    "name": "MSN",
+    "website": "https://www.msn.com/",
+    "fileType": "svg"
   },
   {
     "slug": "codebuddy",
@@ -17639,6 +17687,18 @@
     "name": "Grok",
     "website": "https://grok.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "logitech",
+    "name": "Logitech",
+    "website": "https://www.logitech.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "logi",
+    "name": "Logitech",
+    "website": "https://www.logitech.com/",
+    "fileType": "png"
   },
   {
     "slug": "ferrari",
