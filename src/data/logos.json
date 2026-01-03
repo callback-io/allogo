@@ -1512,6 +1512,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "saic-audi",
+    "name": "Saic Audi",
+    "website": "https://www.saic-audi.cn/",
+    "fileType": "svg"
+  },
+  {
     "slug": "audioeye",
     "name": "Audioeye",
     "website": "https://www.audioeye.com/",
@@ -15671,7 +15677,13 @@
   {
     "slug": "traeai",
     "name": "Traeai",
-    "website": "https://trae.ai/",
+    "website": "https://www.trae.cn/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "trae",
+    "name": "Trae",
+    "website": "https://www.trae.ai/",
     "fileType": "svg"
   },
   {
@@ -17560,6 +17572,72 @@
     "slug": "codebuddy",
     "name": "CodeBuddy",
     "website": "https://www.codebuddy.ai/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "vscode",
+    "name": "VSCode",
+    "website": "https://code.visualstudio.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "liblib",
+    "name": "Liblib",
+    "website": "https://www.liblib.art/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "coze",
+    "name": "Coze",
+    "website": "https://space.coze.cn/",
+    "fileType": "png"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "website": "https://n8n.io/",
+    "fileType": "png"
+  },
+  {
+    "slug": "ineos",
+    "name": "Ineos",
+    "website": "https://www.ineos.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "website": "https://copilot.microsoft.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "aston-martin",
+    "name": "Aston Martin",
+    "website": "https://www.astonmartin.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "nevo",
+    "name": "Nevo",
+    "website": "https://www.globalchangan.com/nevo.html",
+    "fileType": "png"
+  },
+  {
+    "slug": "fangchengbao",
+    "name": "fangchengbao",
+    "website": "https://www.fangchengbao.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "grok",
+    "name": "Grok",
+    "website": "https://grok.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "ferrari",
+    "name": "Ferrari",
+    "website": "https://www.ferrari.com/",
     "fileType": "svg"
   }
 ]

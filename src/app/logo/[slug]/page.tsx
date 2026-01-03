@@ -24,23 +24,42 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     };
   }
 
+  const isSvg = logo.fileType === "svg";
+  const fileTypeUpper = logo.fileType.toUpperCase();
+
+  const title = isSvg
+    ? `${logo.name} Vector Logo (SVG) - Download & React/Vue Component | Allogo`
+    : `${logo.name} Logo (${fileTypeUpper}) - Download High Quality Image | Allogo`;
+
+  const description = isSvg
+    ? `Download ${logo.name}'s official vector logo in SVG format. Copy as React component, Vue component, or raw SVG code. Free for developers and designers.`
+    : `Download ${logo.name}'s official logo in high-quality ${fileTypeUpper} format. Free for developers and designers.`;
+
+  const keywords = [
+    logo.name,
+    "logo",
+    "download",
+    logo.fileType,
+    ...(isSvg ? ["svg", "vector", "react", "vue", "component"] : ["image", "transparent", "icon"]),
+    ...(logo.tags || []),
+  ];
+
   return {
-    title: `${logo.name} Logo SVG - Download & React/Vue Component | Allogo`,
-    description: `Download ${logo.name}'s official SVG logo. Copy as React component, Vue component, or raw SVG code. Free for developers and designers.`,
-    keywords: [
-      logo.name,
-      "svg",
-      "logo",
-      "download",
-      "react",
-      "vue",
-      "component",
-      ...(logo.tags || []),
-    ],
+    title,
+    description,
+    keywords,
     openGraph: {
-      title: `${logo.name} Logo SVG - Allogo`,
-      description: `Download ${logo.name}'s SVG logo and copy React/Vue component code.`,
+      title: title,
+      description: description,
       type: "website",
+      images: [
+        {
+          url: `/logos/${logo.slug}/icon.${logo.fileType}`,
+          width: 800,
+          height: 600,
+          alt: `${logo.name} Logo`,
+        },
+      ],
     },
   };
 }
