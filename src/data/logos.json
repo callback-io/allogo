@@ -17495,5 +17495,71 @@
     "name": "Zycada",
     "website": "https://www.zycada.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "doubao",
+    "name": "Doubao",
+    "website": "https://www.doubao.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "deepseek",
+    "name": "Deepseek",
+    "website": "https://www.deepseek.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "qwen",
+    "name": "Qwen",
+    "website": "https://qwen.ai/",
+    "fileType": "png"
+  },
+  {
+    "slug": "hunyuan",
+    "name": "Hunyuan",
+    "website": "https://hunyuan.tencent.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "yuanbao",
+    "name": "Yuanbao",
+    "website": "https://yuanbao.tencent.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "kimi",
+    "name": "Kimi",
+    "website": "https://www.kimi.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "z",
+    "name": "Z ai",
+    "website": "https://chat.z.ai/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "zhipu",
+    "name": "Zhipu",
+    "website": "https://www.zhipuai.cn/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "chatglm",
+    "name": "ChatGLM",
+    "website": "https://chatglm.cn/",
+    "fileType": "png"
+  },
+  {
+    "slug": "yiyan",
+    "name": "Yiyan, Wenxin",
+    "website": "https://yiyan.baidu.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "codebuddy",
+    "name": "CodeBuddy",
+    "website": "https://www.codebuddy.ai/",
+    "fileType": "svg"
   }
 ]
