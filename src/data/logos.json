@@ -17743,6 +17743,96 @@
     "fileType": "svg"
   },
   {
+    "slug": "shop-app",
+    "name": "Shop App",
+    "website": "https://shop.app/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "shop-app-1",
+    "name": "Shop App",
+    "website": "https://shop.app/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "janitorai",
+    "name": "JanitorAI",
+    "website": "https://janitorai.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "quizlet",
+    "name": "Quizlet",
+    "website": "https://quizlet.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "quizlet-1",
+    "name": "Quizlet",
+    "website": "https://quizlet.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "remove-bg",
+    "name": "Remove Bg",
+    "website": "https://www.remove.bg/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "quillbot",
+    "name": "Quillbot",
+    "website": "https://quillbot.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "capcut",
+    "name": "Capcut",
+    "website": "https://www.capcut.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "wps",
+    "name": "WPS",
+    "website": "https://www.wps.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "spicychat",
+    "name": "SpicyChat",
+    "website": "https://spicychat.ai/",
+    "fileType": "png"
+  },
+  {
+    "slug": "gamma-app",
+    "name": "Gamma App",
+    "website": "https://gamma.app/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "gamma-app-1",
+    "name": "Gamma App",
+    "website": "https://gamma.app/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "mercadolibre",
+    "name": "MercadoLibre",
+    "website": "https://mercadolibre.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "website": "https://clickup.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "zerogpt",
+    "name": "ZeroGPT",
+    "website": "https://www.zerogpt.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "gemini-1",
     "name": "Gemini",
     "website": "https://gemini.google.com/",
