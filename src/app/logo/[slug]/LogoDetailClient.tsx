@@ -229,6 +229,7 @@ export function LogoDetailClient({ logo }: LogoDetailClientProps) {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.4, delay: 0.1 }}
         >
+          <h2 className="sr-only">Integration Code & Download</h2>
           <CodeTabs defaultTab="CDN Link" tabs={tabs} />
         </motion.div>
       </div>

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { Metadata } from "next";
 import { getLogoBySlug, getAllLogoSlugs } from "@/lib/logos";
 import { LogoDetailClient } from "./LogoDetailClient";
+import { SITE_URL } from "@/lib/constants";
 
 interface PageProps {
   params: Promise<{ slug: string }>;
@@ -44,6 +45,39 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     ...(logo.tags || []),
   ];
 
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          {
+            "@type": "ListItem",
+            position: 1,
+            name: "Home",
+            item: SITE_URL,
+          },
+          {
+            "@type": "ListItem",
+            position: 2,
+            name: logo.name,
+            item: `${SITE_URL}/logo/${logo.slug}`,
+          },
+        ],
+      },
+      {
+        "@type": "ImageObject",
+        contentUrl: `${SITE_URL}/logos/${logo.slug}/icon.${logo.fileType}`,
+        creditText: logo.name,
+        creator: {
+          "@type": "Organization",
+          name: logo.name,
+        },
+        copyrightNotice: `© ${logo.name}`,
+      },
+    ],
+  };
+
   return {
     title,
     description,
@@ -60,6 +94,15 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
           alt: `${logo.name} Logo`,
         },
       ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: title,
+      description: description,
+      images: [`/logos/${logo.slug}/icon.${logo.fileType}`],
+    },
+    other: {
+      "script:ld+json": JSON.stringify(structuredData),
     },
   };
 }

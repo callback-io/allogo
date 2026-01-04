@@ -257,6 +257,9 @@ function HomeContent() {
         {/* Logo Grid Section */}
         <section className="px-4 pt-4 pb-16">
           <div className="max-w-7xl mx-auto">
+            {/* Semantic Heading for SEO */}
+            <h2 className="sr-only">Browse Logos</h2>
+
             {/* Toolbar */}
             <Toolbar
               sortOrder={sortOrder}

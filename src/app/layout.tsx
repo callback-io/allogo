@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/ThemeProvider";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
 import { Header } from "@/components/features/Header";
 import { Footer } from "@/components/features/Footer";
+import { SITE_URL } from "@/lib/constants";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -24,7 +25,7 @@ const silkscreen = Silkscreen({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://allogo.org"),
+  metadataBase: new URL(SITE_URL),
   title: "Allogo - SVG Logos for Developers",
   description:
     "Download SVG logos and copy React/Vue component code. Free, open source logo library for developers.",
@@ -34,6 +35,16 @@ export const metadata: Metadata = {
     title: "Allogo - SVG Logos for Developers",
     description: "Download SVG logos and copy React/Vue component code.",
     type: "website",
+  },
+  alternates: {
+    canonical: "./",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Allogo - SVG Logos for Developers",
+    description:
+      "Download SVG logos and copy React/Vue component code. Free, open source logo library for developers.",
+    creator: "@allogo",
   },
 };
 
@@ -64,14 +75,14 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "https://schema.org",
               "@type": "WebSite",
-              url: "https://allogo.org/",
+              url: `${SITE_URL}/`,
               name: "Allogo",
               description: "SVG Logos for Developers",
               potentialAction: {
                 "@type": "SearchAction",
                 target: {
                   "@type": "EntryPoint",
-                  urlTemplate: "https://allogo.org/?q={search_term_string}",
+                  urlTemplate: `${SITE_URL}/?q={search_term_string}`,
                 },
                 "query-input": "required name=search_term_string",
               },
