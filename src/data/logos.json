@@ -17701,6 +17701,24 @@
     "fileType": "png"
   },
   {
+    "slug": "bilibili",
+    "name": "Bilibili",
+    "website": "https://www.bilibili.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "bilibili-tv",
+    "name": "Bilibili Tv",
+    "website": "https://www.bilibili.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "feishu",
+    "name": "Feishu",
+    "website": "https://www.feishu.cn/",
+    "fileType": "svg"
+  },
+  {
     "slug": "logi",
     "name": "Logitech",
     "website": "https://www.logitech.com/",
