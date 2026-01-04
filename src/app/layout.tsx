@@ -35,14 +35,27 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
-  title: "Allogo - SVG Logos for Developers",
+  title: "Allogo - Brand Assets for READMEs, Presentations & UIs",
   description:
-    "Download SVG logos and copy React/Vue component code. Free, open source logo library for developers.",
-  keywords: ["svg", "logo", "react", "vue", "component", "download", "free"],
+    "The ultimate collection of 2900+ brand logos. Perfect for READMEs, PPT slides, UI mockups, and credit pages. Instant React/Vue/Angular/Svelte components & SVG/PNG downloads.",
+  keywords: [
+    "readme badges",
+    "presentation logos",
+    "ui brand icons",
+    "svg logo",
+    "png logo",
+    "react component",
+    "vue component",
+    "angular component",
+    "svelte component",
+    "developer tools",
+    "brand assets",
+  ],
   authors: [{ name: "Allogo" }],
   openGraph: {
-    title: "Allogo - SVG Logos for Developers",
-    description: "Download SVG logos and copy React/Vue component code.",
+    title: "Allogo - Brand Assets for READMEs, Presentations & UIs",
+    description:
+      "The ultimate collection of 2900+ brand logos. Perfect for READMEs, PPT slides, UI mockups, and credit pages. Instant React/Vue/Angular/Svelte components & SVG/PNG downloads.",
     type: "website",
   },
   alternates: {
@@ -50,9 +63,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Allogo - SVG Logos for Developers",
+    title: "Allogo - Brand Assets for READMEs, Presentations & UIs",
     description:
-      "Download SVG logos and copy React/Vue component code. Free, open source logo library for developers.",
+      "The ultimate collection of 2900+ brand logos. Perfect for READMEs, PPT slides, UI mockups, and credit pages. Instant React/Vue/Angular/Svelte components & SVG/PNG downloads.",
     creator: "@allogo",
   },
   appleWebApp: {
