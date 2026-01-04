@@ -37,7 +37,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Allogo - Brand Assets for READMEs, Presentations & UIs",
   description:
-    "The ultimate collection of 2900+ brand logos. Perfect for READMEs, PPT slides, UI mockups, and credit pages. Instant React/Vue/Angular/Svelte components & SVG/PNG downloads.",
+    "2900+ brand logos for developers. Perfect for READMEs, PPTs, UI mockups. Instant React/Vue/Angular/Svelte components & high-quality SVG/PNG downloads.",
   keywords: [
     "readme badges",
     "presentation logos",
@@ -55,8 +55,17 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Allogo - Brand Assets for READMEs, Presentations & UIs",
     description:
-      "The ultimate collection of 2900+ brand logos. Perfect for READMEs, PPT slides, UI mockups, and credit pages. Instant React/Vue/Angular/Svelte components & SVG/PNG downloads.",
+      "2900+ brand logos for developers. Perfect for READMEs, PPTs, UI mockups. Instant React/Vue/Angular/Svelte components & high-quality SVG/PNG downloads.",
     type: "website",
+    url: SITE_URL,
+    images: [
+      {
+        url: "/screenshot.png",
+        width: 1200,
+        height: 630,
+        alt: "Allogo - Brand Assets for Developers",
+      },
+    ],
   },
   alternates: {
     canonical: "./",
@@ -65,8 +74,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Allogo - Brand Assets for READMEs, Presentations & UIs",
     description:
-      "The ultimate collection of 2900+ brand logos. Perfect for READMEs, PPT slides, UI mockups, and credit pages. Instant React/Vue/Angular/Svelte components & SVG/PNG downloads.",
+      "2900+ brand logos for developers. Perfect for READMEs, PPTs, UI mockups. Instant React/Vue/Angular/Svelte components & high-quality SVG/PNG downloads.",
     creator: "@allogo",
+    site: "@allogo",
+    images: ["/screenshot.png"],
   },
   appleWebApp: {
     capable: true,
