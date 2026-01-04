@@ -31,7 +31,14 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # env files (can opt-in for committing if needed)
-.env*
+# env files
+.env.local
+.env.*.local
+.env
+# Keep .env.production and .env.example visible 
+# .env.example is usually committed as a template
+# .env.production contains public build config
+
 
 # vercel
 .vercel

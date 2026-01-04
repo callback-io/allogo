@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono, Silkscreen } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/ThemeProvider";
@@ -24,6 +24,15 @@ const silkscreen = Silkscreen({
   variable: "--font-silkscreen",
 });
 
+export const viewport: Viewport = {
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "white" },
+    { media: "(prefers-color-scheme: dark)", color: "#0a0a0a" },
+  ],
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Allogo - SVG Logos for Developers",
@@ -45,6 +54,11 @@ export const metadata: Metadata = {
     description:
       "Download SVG logos and copy React/Vue component code. Free, open source logo library for developers.",
     creator: "@allogo",
+  },
+  appleWebApp: {
+    capable: true,
+    title: "Allogo",
+    statusBarStyle: "default",
   },
 };
 
