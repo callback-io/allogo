@@ -1,6 +1,6 @@
-# Allogo - SVG Logos for Developers
+# Allogo - Logos for Developers
 
-**Allogo** is an open-source library of high-quality SVG logos, designed specifically for developers. Browse, search, and instantly copy component code for React, Vue, Angular, Svelte, and plain HTML.
+**Allogo** is an open-source library of high-quality brand logos (SVG, PNG, JPG), designed specifically for developers. Browse, search, and download logos instantly. For SVG logos, copy component code for React, Vue, Angular, Svelte, and plain HTML.
 
 ![Allogo Screenshot](public/screenshot.png)
 
