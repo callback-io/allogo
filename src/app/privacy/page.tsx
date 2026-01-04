@@ -18,9 +18,9 @@ export default function PrivacyPage() {
             1. Introduction
           </h2>
           <p>
-            Welcome to Allogo ("we," "our," or "us"). We respect your privacy and are committed to
-            protecting your personal data. This Privacy Policy explains how we handle your
-            information when you visit our website (allogo.org).
+            Welcome to Allogo (&quot;we,&quot; &quot;our,&quot; or &quot;us&quot;). We respect your
+            privacy and are committed to protecting your personal data. This Privacy Policy explains
+            how we handle your information when you visit our website (allogo.org).
           </p>
         </section>
 
@@ -29,9 +29,9 @@ export default function PrivacyPage() {
             2. Data Collection
           </h2>
           <p>
-            We adhere to a strict "No-Logs" policy regarding your personal activity. Allogo is a
-            static website and an open-source project. We do not create user accounts, store
-            personal profiles, or track individual usage behavior.
+            We adhere to a strict &quot;No-Logs&quot; policy regarding your personal activity.
+            Allogo is a static website and an open-source project. We do not create user accounts,
+            store personal profiles, or track individual usage behavior.
           </p>
           <p>
             However, our hosting provider (Cloudflare) and code repository (GitHub) may collect

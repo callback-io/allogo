@@ -46,8 +46,8 @@ export default function TermsPage() {
           </p>
           <p>
             The logos provided on this site are for reference, educational, and development purposes
-            only (e.g., for use in a UI mockup or a "Powered by" section). You must verify that your
-            intended use complies with the trademark owner's brand guidelines.
+            only (e.g., for use in a UI mockup or a &quot;Powered by&quot; section). You must verify
+            that your intended use complies with the trademark owner&apos;s brand guidelines.
           </p>
         </section>
 
@@ -56,9 +56,9 @@ export default function TermsPage() {
             3. Disclaimer of Warranties
           </h2>
           <p>
-            The service is provided on an "AS IS" and "AS AVAILABLE" basis. Allogo makes no
-            warranties, whether express or implied, regarding the accuracy, completeness, or
-            reliability of the logos or content provided.
+            The service is provided on an &quot;AS IS&quot; and &quot;AS AVAILABLE&quot; basis.
+            Allogo makes no warranties, whether express or implied, regarding the accuracy,
+            completeness, or reliability of the logos or content provided.
           </p>
         </section>
 

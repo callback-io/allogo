@@ -60,6 +60,7 @@ function HomeContent() {
         window.history.replaceState(null, "", `/?q=${encodeURIComponent(savedQuery)}`);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []); // Only run once on mount
 
   // Listen for popstate (browser back/forward)

@@ -1,4 +1,4 @@
-export default {
+const config = {
   extends: ["@commitlint/config-conventional"],
   rules: {
     "type-enum": [
@@ -19,5 +19,8 @@ export default {
     ],
     "subject-case": [0], // Allow any case
     "subject-full-stop": [0], // Allow ending punctuation
+    "header-max-length": [2, "always", 150], // Allow longer commit messages
   },
 };
+
+export default config;

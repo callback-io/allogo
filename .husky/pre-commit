@@ -1,2 +1,1 @@
-# Skip lint for initial husky setup
-# pnpm run lint
+pnpm run lint

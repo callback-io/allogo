@@ -4,14 +4,12 @@ import { useState, useEffect } from "react";
 import Link from "next/link";
 import { useTheme } from "next-themes";
 import { motion } from "framer-motion";
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { CodeTabs } from "@/components/features/CodeTabs";
 import {
   generateReactComponent,
   generateVueComponent,
   generateAngularComponent,
   generateSvelteComponent,
-  generateHtmlCode,
 } from "@/lib/codeGenerator";
 import type { LogoWithSvg } from "@/lib/types";
 
@@ -134,6 +132,7 @@ export function LogoDetailClient({ logo }: LogoDetailClientProps) {
                 />
               ) : (
                 /* Raster Image Preview */
+                // eslint-disable-next-line @next/next/no-img-element
                 <img
                   src={`/logos/${logo.slug}/icon.${logo.fileType || "png"}`}
                   alt={logo.name}

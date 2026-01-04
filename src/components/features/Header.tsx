@@ -16,6 +16,7 @@ export function Header({ children }: HeaderProps) {
           href="/"
           className="flex items-center gap-2 hover:opacity-80 transition-opacity shrink-0"
         >
+          {/* eslint-disable-next-line @next/next/no-img-element */}
           <img src="/logo.svg" alt="Allogo" className="w-7 h-7" />
           <span className="font-pixel text-lg text-neutral-900 dark:text-neutral-100 hidden sm:inline">
             Allogo
