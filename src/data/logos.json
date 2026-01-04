@@ -17729,5 +17729,23 @@
     "name": "Ferrari",
     "website": "https://www.ferrari.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "antigravity",
+    "name": "Antigravity",
+    "website": "https://antigravity.google/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "quark-cn",
+    "name": "Quark Cn",
+    "website": "https://www.quark.cn/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "gemini-1",
+    "name": "Gemini",
+    "website": "https://gemini.google.com/",
+    "fileType": "svg"
   }
 ]
