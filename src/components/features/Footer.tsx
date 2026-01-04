@@ -27,6 +27,12 @@ export function Footer() {
               Legal
             </Link>
             <Link
+              href="/faq"
+              className="hover:text-neutral-700 dark:hover:text-neutral-200 transition-colors"
+            >
+              FAQ
+            </Link>
+            <Link
               href="https://github.com/callback-io/allogo"
               target="_blank"
               rel="noopener noreferrer"
