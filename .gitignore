@@ -10,6 +10,8 @@
 !.yarn/releases
 !.yarn/versions
 
+.history
+
 # testing
 /coverage
 
@@ -49,6 +51,7 @@ next-env.d.ts
 
 .claude
 .vscode
+.trae
 .open-next
 .wrangler
 .agent
