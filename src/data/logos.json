@@ -17833,6 +17833,12 @@
     "fileType": "png"
   },
   {
+    "slug": "aitdk",
+    "name": "AITDK",
+    "website": "https://aitdk.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "gemini-1",
     "name": "Gemini",
     "website": "https://gemini.google.com/",
