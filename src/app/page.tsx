@@ -213,7 +213,7 @@ function HomeContent() {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.5, delay: 0.3 }}
-              className={`mt-4 md:mt-6 flex items-center justify-center gap-4 md:gap-6 text-xs md:text-sm text-neutral-500 ${
+              className={`mt-4 md:mt-6 flex items-center justify-center gap-4 md:gap-6 text-xs md:text-sm text-neutral-600 dark:text-neutral-400 ${
                 query ? "hidden md:flex" : ""
               }`}
             >
