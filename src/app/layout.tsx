@@ -3,6 +3,7 @@ import { Geist, Geist_Mono, Silkscreen } from "next/font/google";
 import { Toaster } from "@/components/ui/sonner";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { GoogleAnalytics } from "@/components/GoogleAnalytics";
+import { GoogleAdSense } from "@/components/GoogleAdSense";
 import { Header } from "@/components/features/Header";
 import { Footer } from "@/components/features/Footer";
 import { SITE_URL } from "@/lib/constants";
@@ -138,6 +139,7 @@ export default function RootLayout({
           <Toaster position="bottom-center" />
         </ThemeProvider>
         <GoogleAnalytics />
+        <GoogleAdSense />
       </body>
     </html>
   );

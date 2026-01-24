@@ -11,10 +11,12 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "prebuild": "node scripts/generate-ads-txt.mjs",
     "build": "next build",
-    "pages:build": "opennextjs-cloudflare build",
+    "pages:build": "node scripts/generate-ads-txt.mjs && opennextjs-cloudflare build",
     "preview": "opennextjs-cloudflare preview --port 3000",
-    "deploy": "opennextjs-cloudflare build && wrangler deploy",
+    "deploy": "node scripts/generate-ads-txt.mjs && opennextjs-cloudflare build && wrangler deploy",
+    "generate:ads": "node scripts/generate-ads-txt.mjs",
     "start": "next start",
     "lint": "eslint",
     "prepare": "husky"
