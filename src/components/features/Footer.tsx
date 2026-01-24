@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { TRADEMARK_DISCLAIMER } from "@/lib/constants";
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -14,7 +15,7 @@ export function Footer() {
             <span>© {currentYear} Allogo</span>
             {/* Disclaimer - hide on mobile */}
             <p className="hidden md:block text-xs text-neutral-400 dark:text-neutral-500 max-w-xl">
-              All product names, logos, and brands are property of their respective owners.
+              {TRADEMARK_DISCLAIMER}
             </p>
           </div>
 

@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import { codeToHtml } from "shiki";
 import { CopyButton } from "./CopyButton";
+import { TRADEMARK_DISCLAIMER } from "@/lib/constants";
 
 interface CodeTab {
   label: string;
@@ -116,6 +117,11 @@ export function CodeTabs({ tabs, defaultTab }: CodeTabsProps) {
             <code className="text-neutral-700 dark:text-neutral-300">{currentTab.code}</code>
           </pre>
         )}
+      </div>
+
+      {/* Trademark disclaimer */}
+      <div className="px-4 pb-3 text-xs text-neutral-500 dark:text-neutral-400">
+        {TRADEMARK_DISCLAIMER}
       </div>
     </div>
   );

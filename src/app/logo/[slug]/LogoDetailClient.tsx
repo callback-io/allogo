@@ -60,7 +60,7 @@ export function LogoDetailClient({ logo }: LogoDetailClientProps) {
         filename: "icon.component.ts",
       },
       { label: "Svelte", code: svelteCode, language: "svelte", filename: "Icon.svelte" },
-      { label: "SVG", code: logo.svgContent, language: "html", filename: "icon.svg" }
+      { label: "SVG", code: logo.svgContent, language: "html", filename: "icon.svg" },
     );
   }
 
