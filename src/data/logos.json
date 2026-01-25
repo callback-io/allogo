@@ -17839,6 +17839,30 @@
     "fileType": "svg"
   },
   {
+    "slug": "basetoolbox",
+    "name": "BaseToolbox",
+    "website": "https://basetoolbox.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "solsrngcalc",
+    "name": "Sols RNG Calc",
+    "website": "https://solsrngcalc.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "onlineplayer",
+    "name": "Online Player",
+    "website": "https://onlineplayer.app",
+    "fileType": "svg"
+  },
+  {
+    "slug": "genzslanghub",
+    "name": "Genzslanghub",
+    "website": "https://genzslanghub.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "gemini-1",
     "name": "Gemini",
     "website": "https://gemini.google.com/",
