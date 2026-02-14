@@ -19,6 +19,31 @@ export async function getAllLogos(): Promise<Logo[]> {
 }
 
 /**
+ * Get all logos that have a corresponding SVG file.
+ * Used for sitemap and other static generation to avoid broken links.
+ */
+export async function getVerifiedLogos(): Promise<Logo[]> {
+  const logos = await getAllLogos();
+
+  const results = await Promise.all(
+    logos.map(async (logo) => {
+      if (logo.fileType !== "svg") return logo;
+
+      const svgPath = path.join(process.cwd(), "public/logos", logo.slug, "icon.svg");
+      try {
+        await fs.access(svgPath);
+        return logo;
+      } catch {
+        console.warn(`Skipping missing logo during verification: ${logo.slug}`);
+        return null;
+      }
+    }),
+  );
+
+  return results.filter((l): l is Logo => l !== null);
+}
+
+/**
  * Get single logo by slug (including SVG content)
  */
 export async function getLogoBySlug(slug: string): Promise<LogoWithSvg | null> {

@@ -1,11 +1,11 @@
 import { MetadataRoute } from "next";
-import { getAllLogos } from "@/lib/logos";
+import { getVerifiedLogos } from "@/lib/logos";
 import { SITE_URL } from "@/lib/constants";
 
 export const dynamic = "force-static";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const logos = await getAllLogos();
+  const logos = await getVerifiedLogos();
   const baseUrl = SITE_URL;
 
   const logoEntries: MetadataRoute.Sitemap = logos.map((logo) => ({
