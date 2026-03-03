@@ -1,6 +1,10 @@
 # Allogo - Logos for Developers
 
-**Allogo** is an open-source library of high-quality brand logos (SVG, PNG, JPG), designed specifically for developers. Browse, search, and download logos instantly. For SVG logos, copy component code for React, Vue, Angular, Svelte, and plain HTML.
+[English](README.md) | [中文](README.zh-CN.md)
+
+**Allogo** is an open-source library of high-quality brand logos (SVG, PNG, JPG), designed specifically for developers. Browse, search, and download logos instantly. Each logo has a dedicated page with a **dofollow link** to the brand's official website — making it a free backlink source for your project.
+
+For SVG logos, copy component code for React, Vue, Angular, Svelte, and plain HTML.
 
 ![Allogo Screenshot](public/screenshot.png)
 
@@ -11,6 +15,19 @@
 - **🎨 Dark Mode Support**: Optimized for both light and dark themes.
 - **⚡️ Fast & Lightweight**: Built with Next.js and Tailwind CSS.
 - **📦 Open Data**: Powered by open data from VectorLogoZone and community contributions.
+
+## 🔗 Free Backlinks
+
+Every brand in Allogo gets a dedicated, SEO-optimized page (e.g. `allogo.org/logo/your-brand`) that includes a **dofollow link** pointing to the brand's official website.
+
+**How to get a free backlink for your project:**
+
+1. Fork this repository.
+2. Add your brand logo (SVG/PNG/JPG) to `public/logos/your-brand/`.
+3. Run `node scripts/update-logos.js` and fill in your website URL.
+4. Submit a Pull Request.
+
+That's it — once merged, your brand page goes live with a permanent, indexed backlink.
 
 ## Getting Started
 
