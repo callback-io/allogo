@@ -396,6 +396,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "aitdk",
+    "name": "AITDK",
+    "website": "https://aitdk.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "aito",
     "name": "Aito",
     "website": "https://aito.auto/",
@@ -624,6 +630,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "amg",
+    "name": "AMG",
+    "website": "https://www.mercedes-amg.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "aminopay",
     "name": "Aminopay",
     "website": "https://www.aminopay.com/",
@@ -741,6 +753,12 @@
     "slug": "anthropic",
     "name": "Anthropic",
     "website": "https://www.anthropic.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "antigravity",
+    "name": "Antigravity",
+    "website": "https://antigravity.google/",
     "fileType": "svg"
   },
   {
@@ -1410,6 +1428,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "aston-martin",
+    "name": "Aston Martin",
+    "website": "https://www.astonmartin.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "astro",
     "name": "Astro",
     "website": "https://astro.build/",
@@ -1425,18 +1449,6 @@
     "slug": "asus",
     "name": "Asus",
     "website": "https://www.asus.com/us/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "rog",
-    "name": "Rog",
-    "website": "https://rog.asus.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "proart",
-    "name": "Proart",
-    "website": "https://www.asus.com/us/proart/",
     "fileType": "svg"
   },
   {
@@ -1521,12 +1533,6 @@
     "slug": "audi",
     "name": "Audi",
     "website": "https://www.audi.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "saic-audi",
-    "name": "Saic Audi",
-    "website": "https://www.saic-audi.cn/",
     "fileType": "svg"
   },
   {
@@ -2202,6 +2208,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "basetoolbox",
+    "name": "BaseToolbox",
+    "website": "https://basetoolbox.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "bash",
     "name": "Bash",
     "website": "https://www.gnu.org/software/bash/",
@@ -2367,6 +2379,18 @@
     "slug": "bigswitch",
     "name": "Bigswitch",
     "website": "https://www.bigswitch.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "bilibili",
+    "name": "Bilibili",
+    "website": "https://www.bilibili.com/",
+    "fileType": "png"
+  },
+  {
+    "slug": "bilibili-tv",
+    "name": "Bilibili Tv",
+    "website": "https://www.bilibili.com/",
     "fileType": "svg"
   },
   {
@@ -3101,6 +3125,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "capcut",
+    "name": "Capcut",
+    "website": "https://www.capcut.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "capistrano",
     "name": "Capistrano",
     "website": "http://capistranorb.com/",
@@ -3297,6 +3327,12 @@
     "name": "Chartmuseum",
     "website": "https://chartmuseum.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "chatglm",
+    "name": "ChatGLM",
+    "website": "https://chatglm.cn/",
+    "fileType": "png"
   },
   {
     "slug": "chatwork",
@@ -3518,6 +3554,12 @@
     "slug": "clearvision-cm",
     "name": "Clearvision Cm",
     "website": "https://www.clearvision-cm.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "clickup",
+    "name": "ClickUp",
+    "website": "https://clickup.com/",
     "fileType": "svg"
   },
   {
@@ -3812,6 +3854,12 @@
     "slug": "codebeat",
     "name": "Codebeat",
     "website": "https://codebeat.co/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "codebuddy",
+    "name": "CodeBuddy",
+    "website": "https://www.codebuddy.ai/",
     "fileType": "svg"
   },
   {
@@ -4301,6 +4349,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "coze",
+    "name": "Coze",
+    "website": "https://space.coze.cn/",
+    "fileType": "png"
+  },
+  {
     "slug": "cpanel",
     "name": "Cpanel",
     "website": "http://cpanel.com/",
@@ -4415,6 +4469,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "css-3",
+    "name": "CSS3",
+    "website": "http://www.w3.org/TR/CSS/",
+    "fileType": "svg"
+  },
+  {
     "slug": "css-3_official",
     "name": "Css 3_official",
     "website": "http://www.w3.org/TR/CSS/",
@@ -4424,12 +4484,6 @@
     "slug": "css-tricks",
     "name": "Css Tricks",
     "website": "https://css-tricks.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "css-3",
-    "name": "CSS3",
-    "website": "http://www.w3.org/TR/CSS/",
     "fileType": "svg"
   },
   {
@@ -4772,6 +4826,12 @@
     "name": "Deepl",
     "website": "https://www.deepl.com/home",
     "fileType": "svg"
+  },
+  {
+    "slug": "deepseek",
+    "name": "Deepseek",
+    "website": "https://www.deepseek.com/",
+    "fileType": "png"
   },
   {
     "slug": "deiser",
@@ -5174,6 +5234,12 @@
     "name": "Dotnet",
     "website": "http://www.microsoft.com/net",
     "fileType": "svg"
+  },
+  {
+    "slug": "doubao",
+    "name": "Doubao",
+    "website": "https://www.doubao.com/",
+    "fileType": "png"
   },
   {
     "slug": "dovetail",
@@ -5776,6 +5842,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "estimatorsuite",
+    "name": "EstimatorSuite",
+    "website": "https://estimatorsuite.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "eta",
     "name": "Eta",
     "website": "http://eta-lang.org/",
@@ -5944,6 +6016,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "fangchengbao",
+    "name": "fangchengbao",
+    "website": "https://www.fangchengbao.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "fastapi",
     "name": "Fastapi",
     "website": "https://fastapi.tiangolo.com/",
@@ -6034,9 +6112,21 @@
     "fileType": "svg"
   },
   {
+    "slug": "feishu",
+    "name": "Feishu",
+    "website": "https://www.feishu.cn/",
+    "fileType": "svg"
+  },
+  {
     "slug": "fender",
     "name": "Fender",
     "website": "https://www.fender.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "ferrari",
+    "name": "Ferrari",
+    "website": "https://www.ferrari.com/",
     "fileType": "svg"
   },
   {
@@ -6640,6 +6730,18 @@
     "fileType": "svg"
   },
   {
+    "slug": "gamma-app",
+    "name": "Gamma App",
+    "website": "https://gamma.app/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "gamma-app-1",
+    "name": "Gamma App",
+    "website": "https://gamma.app/",
+    "fileType": "svg"
+  },
+  {
     "slug": "ganache",
     "name": "Ganache",
     "website": "https://trufflesuite.com/ganache/",
@@ -6721,6 +6823,18 @@
     "slug": "gemini",
     "name": "Gemini",
     "website": "https://gemini.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "gemini-1",
+    "name": "Gemini",
+    "website": "https://gemini.google.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "genzslanghub",
+    "name": "Genzslanghub",
+    "website": "https://genzslanghub.com/",
     "fileType": "svg"
   },
   {
@@ -7126,6 +7240,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "globo",
+    "name": "Globo",
+    "website": "https://www.globo.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "glovoapp",
     "name": "Glovoapp",
     "website": "https://glovoapp.com/en/sdq",
@@ -7199,12 +7319,6 @@
   },
   {
     "slug": "go",
-    "name": "Go",
-    "website": "https://golang.org/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "golang",
     "name": "Go",
     "website": "https://golang.org/",
     "fileType": "svg"
@@ -7297,6 +7411,12 @@
     "slug": "goland",
     "name": "Goland",
     "website": "https://www.jetbrains.com/go/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "golang",
+    "name": "Go",
+    "website": "https://golang.org/",
     "fileType": "svg"
   },
   {
@@ -7753,6 +7873,12 @@
     "slug": "gridsome",
     "name": "Gridsome",
     "website": "https://gridsome.org",
+    "fileType": "svg"
+  },
+  {
+    "slug": "grok",
+    "name": "Grok",
+    "website": "https://grok.com/",
     "fileType": "svg"
   },
   {
@@ -8416,6 +8542,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "hunyuan",
+    "name": "Hunyuan",
+    "website": "https://hunyuan.tencent.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "hyper",
     "name": "Hyper",
     "website": "https://hyper.is/",
@@ -8554,6 +8686,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "imdb",
+    "name": "IMDB",
+    "website": "https://www.imdb.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "imgur",
     "name": "Imgur",
     "website": "https://imgur.com/",
@@ -8599,6 +8737,12 @@
     "slug": "includeos",
     "name": "Includeos",
     "website": "http://www.includeos.org/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "ineos",
+    "name": "Ineos",
+    "website": "https://www.ineos.com/",
     "fileType": "svg"
   },
   {
@@ -8893,6 +9037,12 @@
     "slug": "janestreet",
     "name": "Janestreet",
     "website": "https://www.janestreet.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "janitorai",
+    "name": "JanitorAI",
+    "website": "https://janitorai.com/",
     "fileType": "svg"
   },
   {
@@ -9358,6 +9508,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "kimi",
+    "name": "Kimi",
+    "website": "https://www.kimi.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "kinto",
     "name": "Kinto",
     "website": "http://www.kinto-storage.org/",
@@ -9670,6 +9826,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "liblib",
+    "name": "Liblib",
+    "website": "https://www.liblib.art/",
+    "fileType": "svg"
+  },
+  {
     "slug": "libreoffice",
     "name": "Libreoffice",
     "website": "http://www.libreoffice.org/",
@@ -9844,10 +10006,22 @@
     "fileType": "svg"
   },
   {
+    "slug": "logi",
+    "name": "Logitech",
+    "website": "https://www.logitech.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "logicmonitor",
     "name": "Logicmonitor",
     "website": "https://www.logicmonitor.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "logitech",
+    "name": "Logitech",
+    "website": "https://www.logitech.com/",
+    "fileType": "png"
   },
   {
     "slug": "logmein",
@@ -10004,6 +10178,12 @@
     "name": "Mahindra",
     "website": "http://www.mahindra.com",
     "fileType": "png"
+  },
+  {
+    "slug": "mail-ru",
+    "name": "Mail.Ru",
+    "website": "https://mail.ru/",
+    "fileType": "svg"
   },
   {
     "slug": "mailchimp",
@@ -10348,6 +10528,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "mercadolibre",
+    "name": "MercadoLibre",
+    "website": "https://mercadolibre.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "mercedes-benz",
     "name": "Mercedes-Benz",
     "website": "https://www.mercedes-benz.de/",
@@ -10414,12 +10600,6 @@
     "fileType": "svg"
   },
   {
-    "slug": "amg",
-    "name": "AMG",
-    "website": "https://www.mercedes-amg.com/",
-    "fileType": "svg"
-  },
-  {
     "slug": "mi",
     "name": "Mi",
     "website": "https://www.mi.com/global/",
@@ -10459,6 +10639,12 @@
     "slug": "microsoft-azure",
     "name": "Microsoft Azure",
     "website": "https://azure.microsoft.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "microsoft-copilot",
+    "name": "Microsoft Copilot",
+    "website": "https://copilot.microsoft.com/",
     "fileType": "svg"
   },
   {
@@ -10816,6 +11002,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "msn",
+    "name": "MSN",
+    "website": "https://www.msn.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "msnbc",
     "name": "Msnbc",
     "website": "http://www.msnbc.com/",
@@ -10892,6 +11084,12 @@
     "name": "N26",
     "website": "https://www.n26.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "website": "https://n8n.io/",
+    "fileType": "png"
   },
   {
     "slug": "nabcomau",
@@ -10981,6 +11179,12 @@
     "slug": "natsio",
     "name": "Natsio",
     "website": "https://nats.io/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "naver",
+    "name": "Naver",
+    "website": "https://www.naver.com/",
     "fileType": "svg"
   },
   {
@@ -11102,6 +11306,12 @@
     "name": "Neverinstall",
     "website": "https://neverinstall.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "nevo",
+    "name": "Nevo",
+    "website": "https://www.globalchangan.com/nevo.html",
+    "fileType": "png"
   },
   {
     "slug": "new-relic",
@@ -11248,15 +11458,15 @@
     "fileType": "svg"
   },
   {
-    "slug": "node-sass",
-    "name": "Node Sass",
-    "website": "https://github.com/sass/node-sass",
-    "fileType": "svg"
-  },
-  {
     "slug": "node-js",
     "name": "Node.js",
     "website": "https://nodejs.org/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "node-sass",
+    "name": "Node Sass",
+    "website": "https://github.com/sass/node-sass",
     "fileType": "svg"
   },
   {
@@ -11386,14 +11596,14 @@
     "fileType": "svg"
   },
   {
-    "slug": "nuxt-js",
-    "name": "Nuxt Js",
+    "slug": "nuxt",
+    "name": "Nuxt.js",
     "website": "https://nuxtjs.org/",
     "fileType": "svg"
   },
   {
-    "slug": "nuxt",
-    "name": "Nuxt.js",
+    "slug": "nuxt-js",
+    "name": "Nuxt Js",
     "website": "https://nuxtjs.org/",
     "fileType": "svg"
   },
@@ -11515,6 +11725,12 @@
     "slug": "onesignal",
     "name": "Onesignal",
     "website": "https://onesignal.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "onlineplayer",
+    "name": "Online Player",
+    "website": "https://onlineplayer.app",
     "fileType": "svg"
   },
   {
@@ -12556,6 +12772,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "proart",
+    "name": "Proart",
+    "website": "https://www.asus.com/us/proart/",
+    "fileType": "svg"
+  },
+  {
     "slug": "processing",
     "name": "Processing",
     "website": "https://processing.org/",
@@ -12862,6 +13084,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "quark-cn",
+    "name": "Quark Cn",
+    "website": "https://www.quark.cn/",
+    "fileType": "svg"
+  },
+  {
     "slug": "quarkus",
     "name": "Quarkus",
     "website": "https://quarkus.io/",
@@ -12892,10 +13120,28 @@
     "fileType": "svg"
   },
   {
+    "slug": "quillbot",
+    "name": "Quillbot",
+    "website": "https://quillbot.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "quip",
     "name": "Quip",
     "website": "https://quip.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "quizlet",
+    "name": "Quizlet",
+    "website": "https://quizlet.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "quizlet-1",
+    "name": "Quizlet",
+    "website": "https://quizlet.com/",
+    "fileType": "png"
   },
   {
     "slug": "quobyte",
@@ -12914,6 +13160,12 @@
     "name": "Qwant",
     "website": "https://www.qwant.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "qwen",
+    "name": "Qwen",
+    "website": "https://qwen.ai/",
+    "fileType": "png"
   },
   {
     "slug": "qwik",
@@ -13252,6 +13504,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "remove-bg",
+    "name": "Remove Bg",
+    "website": "https://www.remove.bg/",
+    "fileType": "svg"
+  },
+  {
     "slug": "renault",
     "name": "Renault",
     "website": "https://www.renaultgroup.com/",
@@ -13432,6 +13690,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "roblox",
+    "name": "Roblox",
+    "website": "https://www.roblox.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "rocket-chat",
     "name": "Rocket Chat",
     "website": "https://rocket.chat/",
@@ -13447,6 +13711,12 @@
     "slug": "rocky-linux",
     "name": "Rocky Linux",
     "website": "https://rockylinux.org/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "rog",
+    "name": "Rog",
+    "website": "https://rog.asus.com/",
     "fileType": "svg"
   },
   {
@@ -13621,6 +13891,12 @@
     "slug": "saic",
     "name": "SAIC",
     "website": "http://www.csvw.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "saic-audi",
+    "name": "Saic Audi",
+    "website": "https://www.saic-audi.cn/",
     "fileType": "svg"
   },
   {
@@ -14023,6 +14299,18 @@
     "slug": "shogun",
     "name": "Shogun",
     "website": "https://getshogun.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "shop-app",
+    "name": "Shop App",
+    "website": "https://shop.app/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "shop-app-1",
+    "name": "Shop App",
+    "website": "https://shop.app/",
     "fileType": "svg"
   },
   {
@@ -14440,6 +14728,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "solsrngcalc",
+    "name": "Sols RNG Calc",
+    "website": "https://solsrngcalc.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "sonarcloud",
     "name": "Sonarcloud",
     "website": "https://www.sonarsource.com/products/sonarcloud/",
@@ -14534,6 +14828,12 @@
     "name": "Sphereinc",
     "website": "https://sphereinc.com/",
     "fileType": "svg"
+  },
+  {
+    "slug": "spicychat",
+    "name": "SpicyChat",
+    "website": "https://spicychat.ai/",
+    "fileType": "png"
   },
   {
     "slug": "spidermonkey",
@@ -15351,6 +15651,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "temu",
+    "name": "Temu",
+    "website": "https://www.temu.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "tencent",
     "name": "Tencent",
     "website": "https://www.tencent.com/",
@@ -15693,15 +15999,15 @@
     "fileType": "svg"
   },
   {
-    "slug": "traeai",
-    "name": "Traeai",
-    "website": "https://www.trae.cn/",
-    "fileType": "svg"
-  },
-  {
     "slug": "trae",
     "name": "Trae",
     "website": "https://www.trae.ai/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "traeai",
+    "name": "Traeai",
+    "website": "https://www.trae.cn/",
     "fileType": "svg"
   },
   {
@@ -16496,6 +16802,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "vscode",
+    "name": "VSCode",
+    "website": "https://code.visualstudio.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "vue",
     "name": "Vue.js",
     "website": "http://vuejs.org/",
@@ -16679,6 +16991,12 @@
     "slug": "wearos",
     "name": "Wearos",
     "website": "https://wearos.google.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "weather",
+    "name": "Weather",
+    "website": "https://www.weather.com/",
     "fileType": "svg"
   },
   {
@@ -17077,6 +17395,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "wps",
+    "name": "WPS",
+    "website": "https://www.wps.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "wsj",
     "name": "Wsj",
     "website": "https://www.wsj.com/",
@@ -17317,6 +17641,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "yiyan",
+    "name": "Yiyan, Wenxin Yiyan",
+    "website": "https://yiyan.baidu.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "yodlee",
     "name": "Yodlee",
     "website": "https://www.yodlee.com/",
@@ -17347,6 +17677,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "yuanbao",
+    "name": "Yuanbao",
+    "website": "https://yuanbao.tencent.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "yubico",
     "name": "Yubico",
     "website": "https://www.yubico.com/",
@@ -17356,6 +17692,12 @@
     "slug": "yugabyte",
     "name": "Yugabyte",
     "website": "https://www.yugabyte.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "z",
+    "name": "Z ai",
+    "website": "https://chat.z.ai/",
     "fileType": "svg"
   },
   {
@@ -17431,9 +17773,21 @@
     "fileType": "svg"
   },
   {
+    "slug": "zerogpt",
+    "name": "ZeroGPT",
+    "website": "https://www.zerogpt.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "zeroheight",
     "name": "Zeroheight",
     "website": "https://zeroheight.com/",
+    "fileType": "svg"
+  },
+  {
+    "slug": "zhipu",
+    "name": "Zhipu",
+    "website": "https://www.zhipuai.cn/",
     "fileType": "svg"
   },
   {
@@ -17524,354 +17878,6 @@
     "slug": "zycada",
     "name": "Zycada",
     "website": "https://www.zycada.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "doubao",
-    "name": "Doubao",
-    "website": "https://www.doubao.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "deepseek",
-    "name": "Deepseek",
-    "website": "https://www.deepseek.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "qwen",
-    "name": "Qwen",
-    "website": "https://qwen.ai/",
-    "fileType": "png"
-  },
-  {
-    "slug": "hunyuan",
-    "name": "Hunyuan",
-    "website": "https://hunyuan.tencent.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "yuanbao",
-    "name": "Yuanbao",
-    "website": "https://yuanbao.tencent.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "kimi",
-    "name": "Kimi",
-    "website": "https://www.kimi.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "z",
-    "name": "Z ai",
-    "website": "https://chat.z.ai/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "zhipu",
-    "name": "Zhipu",
-    "website": "https://www.zhipuai.cn/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "chatglm",
-    "name": "ChatGLM",
-    "website": "https://chatglm.cn/",
-    "fileType": "png"
-  },
-  {
-    "slug": "yiyan",
-    "name": "Yiyan, Wenxin Yiyan",
-    "website": "https://yiyan.baidu.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "temu",
-    "name": "Temu",
-    "website": "https://www.temu.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "weather",
-    "name": "Weather",
-    "website": "https://www.weather.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "naver",
-    "name": "Naver",
-    "website": "https://www.naver.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "imdb",
-    "name": "IMDB",
-    "website": "https://www.imdb.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "globo",
-    "name": "Globo",
-    "website": "https://www.globo.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "roblox",
-    "name": "Roblox",
-    "website": "https://www.roblox.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "msn",
-    "name": "MSN",
-    "website": "https://www.msn.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "codebuddy",
-    "name": "CodeBuddy",
-    "website": "https://www.codebuddy.ai/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "vscode",
-    "name": "VSCode",
-    "website": "https://code.visualstudio.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "liblib",
-    "name": "Liblib",
-    "website": "https://www.liblib.art/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "mail-ru",
-    "name": "Mail.Ru",
-    "website": "https://mail.ru/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "coze",
-    "name": "Coze",
-    "website": "https://space.coze.cn/",
-    "fileType": "png"
-  },
-  {
-    "slug": "n8n",
-    "name": "n8n",
-    "website": "https://n8n.io/",
-    "fileType": "png"
-  },
-  {
-    "slug": "ineos",
-    "name": "Ineos",
-    "website": "https://www.ineos.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "microsoft-copilot",
-    "name": "Microsoft Copilot",
-    "website": "https://copilot.microsoft.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "aston-martin",
-    "name": "Aston Martin",
-    "website": "https://www.astonmartin.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "nevo",
-    "name": "Nevo",
-    "website": "https://www.globalchangan.com/nevo.html",
-    "fileType": "png"
-  },
-  {
-    "slug": "fangchengbao",
-    "name": "fangchengbao",
-    "website": "https://www.fangchengbao.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "grok",
-    "name": "Grok",
-    "website": "https://grok.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "logitech",
-    "name": "Logitech",
-    "website": "https://www.logitech.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "bilibili",
-    "name": "Bilibili",
-    "website": "https://www.bilibili.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "bilibili-tv",
-    "name": "Bilibili Tv",
-    "website": "https://www.bilibili.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "feishu",
-    "name": "Feishu",
-    "website": "https://www.feishu.cn/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "logi",
-    "name": "Logitech",
-    "website": "https://www.logitech.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "ferrari",
-    "name": "Ferrari",
-    "website": "https://www.ferrari.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "antigravity",
-    "name": "Antigravity",
-    "website": "https://antigravity.google/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "quark-cn",
-    "name": "Quark Cn",
-    "website": "https://www.quark.cn/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "shop-app",
-    "name": "Shop App",
-    "website": "https://shop.app/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "shop-app-1",
-    "name": "Shop App",
-    "website": "https://shop.app/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "janitorai",
-    "name": "JanitorAI",
-    "website": "https://janitorai.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "quizlet",
-    "name": "Quizlet",
-    "website": "https://quizlet.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "quizlet-1",
-    "name": "Quizlet",
-    "website": "https://quizlet.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "remove-bg",
-    "name": "Remove Bg",
-    "website": "https://www.remove.bg/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "quillbot",
-    "name": "Quillbot",
-    "website": "https://quillbot.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "capcut",
-    "name": "Capcut",
-    "website": "https://www.capcut.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "wps",
-    "name": "WPS",
-    "website": "https://www.wps.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "spicychat",
-    "name": "SpicyChat",
-    "website": "https://spicychat.ai/",
-    "fileType": "png"
-  },
-  {
-    "slug": "gamma-app",
-    "name": "Gamma App",
-    "website": "https://gamma.app/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "gamma-app-1",
-    "name": "Gamma App",
-    "website": "https://gamma.app/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "mercadolibre",
-    "name": "MercadoLibre",
-    "website": "https://mercadolibre.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "clickup",
-    "name": "ClickUp",
-    "website": "https://clickup.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "zerogpt",
-    "name": "ZeroGPT",
-    "website": "https://www.zerogpt.com/",
-    "fileType": "png"
-  },
-  {
-    "slug": "aitdk",
-    "name": "AITDK",
-    "website": "https://aitdk.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "basetoolbox",
-    "name": "BaseToolbox",
-    "website": "https://basetoolbox.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "solsrngcalc",
-    "name": "Sols RNG Calc",
-    "website": "https://solsrngcalc.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "onlineplayer",
-    "name": "Online Player",
-    "website": "https://onlineplayer.app",
-    "fileType": "svg"
-  },
-  {
-    "slug": "genzslanghub",
-    "name": "Genzslanghub",
-    "website": "https://genzslanghub.com/",
-    "fileType": "svg"
-  },
-  {
-    "slug": "gemini-1",
-    "name": "Gemini",
-    "website": "https://gemini.google.com/",
     "fileType": "svg"
   }
 ]
