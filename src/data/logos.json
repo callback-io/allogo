@@ -16664,6 +16664,12 @@
     "fileType": "svg"
   },
   {
+    "slug": "viodus",
+    "name": "Viodus",
+    "website": "https://www.viodus.com/",
+    "fileType": "png"
+  },
+  {
     "slug": "virtualbox",
     "name": "Virtualbox",
     "website": "https://www.virtualbox.org/",
