@@ -16514,6 +16514,14 @@
     "fileType": "svg"
   },
   {
+    "slug": "vargrea",
+    "name": "VARGREA",
+    "category": "Jewellery",
+    "tags": ["retail", "ecommerce"],
+    "website": "https://vargrea.com/",
+    "fileType": "svg"
+  },
+  {
     "slug": "varnish-cache",
     "name": "Varnish Cache",
     "website": "https://varnish-cache.org/",
